@@ -1,0 +1,15 @@
+Tkinter module
+
+#lage vindu
+root = Tk()
+
+#ramme = putter objekter
+ramme = Frame(vindu)
+ramme.pack(side="xxx")
+
+
+#objekter
+x = Label(ramme, text="xxx", fg="farge") #####tekst
+x = Button(ramme, text="xxx", fg="farge", command= funksjon ) #####knapp
+
+x må packes
